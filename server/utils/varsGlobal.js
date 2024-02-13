@@ -1,97 +1,109 @@
 export const secretKey = 'tu_clave_secreta';
-export const timeZone = 'America/Lima';
+export const timeZone = 'America/Guatemala';
 
 export const reportePrendas = [
-  'Ropa x Kilo',
+  'Ropa por Libra',
   'Edredon',
   'Frazada',
   'Cobertor',
-  'Zapatillas',
+  'Zapato',
   'Saco',
   'Abrigo',
-  'Terno',
+  'Traje',
   'Delivery',
 ];
 
 export const prendasPorDefecto = [
   {
     name: 'Delivery',
-    price: '4.5',
+    price: '',
   },
   {
-    name: 'Ropa x Kilo',
-    price: '5.8',
+    name: 'Ropa por Libra',
+    price: '',
+  },
+  {
+    name: 'Servicio de Lavado',
+    price: '',
+  },
+  {
+    name: 'Servicio Completo',
+    price: '',
   },
   {
     name: 'Edredon',
-    price: '7',
+    price: '',
   },
   {
     name: 'Cobertor',
-    price: '19',
+    price: '',
   },
   {
-    name: 'Cubrecama', // Cubrecama
-    price: '14',
+    name: 'Cubrecama',
+    price: '',
+  },
+  {
+    name: 'Lavado a Mano',
+    price: '',
+  },
+  {
+    name: 'Desmanchado',
+    price: '',
   },
   {
     name: 'Frazada',
-    price: '18',
+    price: '',
   },
   {
-    name: 'Manta',
-    price: '12',
+    name: 'Poncho', // Manta
+    price: '',
   },
   {
-    name: 'Casaca', // Casaca
-    price: '8',
+    name: 'Chumpa', // Casaca
+    price: '',
   },
   {
-    name: 'Terno',
-    price: '12',
+    name: 'Traje', // Terno
+    price: '',
   },
   {
     name: 'Saco',
-    price: '10',
+    price: '',
   },
   {
     name: 'Camisa',
-    price: '5',
+    price: '',
   },
   {
     name: 'Pantalon',
-    price: '4',
+    price: '',
   },
   {
     name: 'Abrigo', // Abrigo
-    price: '100',
+    price: '',
   },
   {
-    name: 'Zapatillas', // Zapatillas
-    price: '9',
+    name: 'Zapato', // Zapatillas
+    price: '',
   },
   {
-    name: 'Jean',
-    price: '4',
+    name: 'Vaquero', // Jean
+    price: '',
   },
   {
-    name: 'Polo', // Polo
-    price: '4',
+    name: 'Playera', // Polo
+    price: '',
   },
   {
     name: 'Alfombra',
-    price: '25',
+    price: '',
   },
   {
     name: 'Cortinas',
-    price: '5',
+    price: '',
   },
   {
     name: 'Almohada',
-    price: '8',
-  },
-  {
-    name: 'Tapete',
-    price: '10',
+    price: '',
   },
 ];
